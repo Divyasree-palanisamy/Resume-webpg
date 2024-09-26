@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Divyasree.P</title>
+    <link rel="icon" href="C:\Users\Divya\Desktop\resume webpage\download.png">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(body.jfif);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(255, 180, 180, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #feb47b;
+            color: #fffeef;
+        }
+
+        .navbar .brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        h2{
+            color: #ff7f5f;
+        }
+        .content {
+            padding: 20px;
+            color: #333;
+        }
+
+        .section {
+            display: none;
+            margin: 40px 0;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            color: #ff7f5f;
+        }
+        h1{
+            color: crimson;
+            text-align: center;
+            background-color: rgb(206, 163, 163);
+            padding: 10px;
+        }
+        h2{
+            color: rgb(178, 92, 34);
+            background-color: cornsilk;
+            padding: 10px;
+            width: 100%;
+        }
+       h3{
+        color: firebrick;
+        
+       }
+       .circle-text {
+  width: 600px;       /* Adjust width as needed */
+  height: 480px;      /* Adjust height as needed to keep it a circle */
+  border-radius: 60%;
+  background-color: #f0f0f0;  /* Optional: Background color */
+  display: flex;
+  
+  background-image: url(rg.jfif);
+  align-items: center;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;      /* Optional: Padding inside the circle */
+  margin: 0 auto;     /* Center the circle on the page */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adding shadow for better visibility */
+  font-size: 20px;    /* Adjust font size as needed */
+  line-height: 1.7;   /* Adjust line height as needed */
+}
+.highlight1 {
+    color: rgb(174, 0, 255); /* Specify your desired color */
+  }
+  .highlight2 {
+    color: blue; /* Specify another desired color */
+  }
+
+
+       
+    </style>
+</head>
+<body >
+    <div class="navbar">
+        <div class="brand">My Website</div>
+        <div>
+            <a href="javascript:void(0)" onclick="showSection('Home')">Home</a>
+            <a href="javascript:void(0)" onclick="showSection('About Me')">About Me</a>
+            <a href="javascript:void(0)" onclick="showSection('Education')">Education</a>
+            <a href="javascript:void(0)" onclick="showSection('Skills')">Skills</a>
+            <a href="javascript:void(0)" onclick="showSection('Certifications')">Certifications</a>
+            <a href="javascript:void(0)" onclick="showSection('Information')">Information</a>
+        </div>
+    </div>
+    <div class="content">
+        <div id="Home" class="section active">
+            <h1><marquee>Welcome to My Resume Website</marquee></h1>
+            <br>
+            <br>
+            <br>
+            <div class="circle-text">
+                <span class="highlight1">
+               <b> Welcome to my website... This website serves as a digital portfolio of my skills, experiences, and achievements. Explore the sections above to learn more about me.</span><br><br><span class="highlight2">"The only way to do great work is to love what you do."</span> </b>
+                
+              </div>        
+        </div>
+        <div id="About Me" class="section">
+            <h2>About Me</h2>
+            <br>
+            <img src="photo.jpeg" width="150" height="170" style="float: right;">
+            <br>
+            <p><b>My name is Divyasree. I come from Coimbatore. I am pursuing third year of B.E.Computer Science and Engineering. </p>
+            <p>My strengths include effective time management,punctuality and adaptability , while I am working to overcome my shyness.</p>
+            <p> My short term goal is to continuously enhance my technical skills and long term goal is to get placed in a good company with a better salary. </p>
+            <p> personal traits that i follow consistently are time management, punctuality , adapting to any situation and contributing for the betterment of the company.</p> 
+            <p>I am familiar with the languages of English and Tamil </p>
+            <p>Next page gives further information about me</b></p>
+        </div>
+        <div id="Education" class="section">
+            <h2>Educational Background</h2>
+            <p><b>I have completed my schoolings at Sri Jayendra Saraswathi Vidhyalaya Matriculation School,Ondipudur-Coimbatore</b></p><p><b> and 
+                currently I am pursuing my third year B.E Computer Science and Engineering at Kalignar Karunanidhi Institute of Technology , Pallapalyam-Coimbatore.</b> </p>
+            <br>
+            <h3><u>Secondary Education</u></h3>
+            <p><b>I have completed my secondary education at Sri Jayendra Saraswathi Vidhyalaya Matriculation School-Ondipudur-Coimbatore and also I have secured 78% in my secondary education</b></p>
+            <br>
+            <h3><u>Higher Secondary Education</u></h3>
+            <p><b>I have completed my secondary education at Sri Jayendra Saraswathi Vidhyalaya Matriculation School-Ondipudur-Coimbatore and also I have secured 85% in my higher secondary education</b></p>
+            <br>
+            <h3><u>College</u></h3>
+            <p><b>I am currently pusring my third year B.E Computer Science and Engineering at Kalaignar Karunanidhi Institute of Technology-Pallapalayam-Coimbatore . My current CGPA is 8.9</b></p>
+        </div>
+        <div id="Skills" class="section">
+            <h2>My skillsets</h2>
+            <p><b><u>This section showcases the various skills I have developed over time.</u></b></p>
+            <h2>Technical Skills:</h2>
+            <h3><u>Programming Languages</u></h3>
+            <p><b>
+                Proficient in Python
+                Basics in C,C++,Java
+           </b> </p>
+            <h3><u>Web development</u></h3>
+            <p><b>
+                Experienced with html,css and Javascript at front-end,python for intermediate, Django for backend and dbms for connectivity
+        </b>
+        </p>
+            <h3><u>Database Managament</u></h3>
+            <p><b>Basics of DBMS concepts and principles</b></p>
+            <h2>Soft Skills:</h2>
+            <h3><u>Problem Solving</u></h3>
+            <p><b> Demonstrated ability to analyze problems and develop effective solutions.</b></p>
+            <h3><u>Time Management</u></h3>
+
+              <p><b> Ability to prioritize tasks and manage time efficiently to meet deadlines.</b></p>
+              <h3><u>Adaptability</u></h3>
+
+               <p><b> Flexible and quick to adapt to new tools, technologies, and processes.
+              </b> </p>
+               <h3><u>Team Collaboration</u></h3>
+
+              <p> <b> Working effectively in team settings to achieve common goals.
+              </b> </p>
+        </div>
+        <div id="Certifications" class="section">
+            <h2>Certifications</h2><br>
+            <p><b><u>Here you can have the certifications that I achieved during my college of academic year (2022-2026) as follows:</u></b></p><br>
+            <h2>In-Plant Training</h2>
+            <p><b>
+                <br>
+                I have attended my In-Plant Training in web-designing course at Braineryspot Technology,Coimbatore from 20-July-2023 to 26-July-2023
+           </b> </p>
+    
+            <p><b>I have attended my In-Plant Training in Machine Learning at CodeBind technolgies,Coimbatore from 7-Febraury-2024 to 12-Febraury-2024</b> </p>
+           <br>
+            <h3><u>In-Plant Training on Web Designing attended at Braineryspot technologies-Coimbatore</u></h3>
+          <br>  
+          <ul>
+            <li><b>In-Plant Training report on Web Designing course : <a href="https://docs.google.com/document/d/1rIbXK1rU83Vt_wSGMBBRogW0S1GoDFSE/edit?usp=sharing&ouid=112722754503588092620&rtpof=true&sd=true" target="_blank">This is my In-Plant Training report on Web Designing course at Brainery Spot Technology </a></b></li>
+            <br>
+            <br>
+            <li><b>In-Plant Training certificate on Web Designing course : <a href="https://drive.google.com/file/d/1WcPFeFFoXqOri7g88VSk3IPQ9TuahrDw/view?usp=sharing" target="_blank">This is my In-Plant Training certificate on web designing</a></b></li>
+          </ul>
+<br>
+<br>
+<h3><u>In-Plant Training on Machine Learning attended at CodeBind technologies-Coimbatore</u></h3><br>
+<ul>
+<li><b>In-Plant Training report on Machine Learning : <a href="https://docs.google.com/document/d/1UlPpik4pQj2QkfgVG55NXt6GM64c5OgO/edit?usp=sharing&ouid=112722754503588092620&rtpof=true&sd=true" target="_blank">This is my In-Plant Training report of Machine Learning course at Codebind Technology</a></b></li>
+
+            <br>
+            <br>
+            <li><b>In-Plant Training certificate on Machine Learning course : <a href="https://drive.google.com/file/d/177enllvi7tmQ550gvgDoJwKzZZf3GNnN/view?usp=sharing" target="_blank">This is my In-Plant Training certificate on Machine Learning</a></b></li>
+            <br>
+            <br>
+</ul>
+<h2>Internship</h2>
+<p><b>I have attended my Internship training at Livewire company on "Web Development using Python" from 8th July 2024 to 24th July 2024(2023-2024)</b></p><br>
+<p><b>From this Internship I have gained some knowledge as like I am able to create my own websites. In this training we used HTML,CSS ,JS as front-end , python as intermediate and MySQL as back-end and got a understandable knwledge on creating website.From this Internship I started developing my own website named "Internship Finder" and still in progress. Once after my website is developed I will attach them here.</b></p>
+<li><b>Internship Certificate : <a href="https://drive.google.com/file/d/1KgaIa0K2cwCaybVyClOHGJxdcUZYGfBw/view?usp=sharing" target="_blank">This is my Internship certificate</a></b></li>
+            <h2>Infosys Springboard Certifications</h2><br>
+            <p><b>At Infosys Springboard I have completed the following courses and secured Certificate of Achievement</b></p><br>
+            <ul>
+                <li><b>Python Foundation Certification Course : <a href="https://drive.google.com/file/d/1986511CRLJ8xIzcqxg00KeLiL9JqKoQB/view?usp=sharing" target="_blank">Python Foundation Certification</a></b></li>
+                <br>
+                <li><b>Internet of Things Certification Course : <a href="https://drive.google.com/file/d/1wCZasCFfmhnGCS7o-GiK8zQEAqUUg3Qr/view?usp=sharing" target="_blank">Internet of Things Foundation Certification</a></b></li>
+                <br>
+                <li><b>TechA Python Programming Foundation Certification Course : <a href="https://drive.google.com/file/d/1gIigyPIhEqM9OlWhEwgYy6DujQXEZqGe/view?usp=sharing" target="_blank">TechA Python Programming Foundation Certification</a></b></li>
+
+                <br>
+                <li><b>TechA Web Development using HTML and CSS Foundation Certification Course : <a href="https://drive.google.com/file/d/1guGrx4Xz9i4eQ7e47xm-2Zbe9A6fcThr/view?usp=sharing" target="_blank">TechA Web Development using HTML and CSS Foundation Certification</a></b></li>
+                <br>
+                   
+            </ul>
+            <br>
+            <br>
+            <h2>Coursera Certifications</h2>
+            <p><b>At coursera I have completed the following courses in the year 2023-2024</b></p>
+            <li><b>Advanced Relational Database and SQL Certification : <a href="https://drive.google.com/file/d/162ghxWnm9otQJMKsUcYTQLD3i6cLsyjw/view?usp=sharing" target="_blank">Advanced Relational Database and SQL </a></b></li>
+            <br>
+            <li><b>Intermediate Relational Database and SQL Certification : <a href="https://drive.google.com/file/d/1R1NH3y-b_omtBM0jC0rULHcY_0PFQ3y0/view?usp=sharing" target="_blank">Intermediate Relational Database and SQL</a></b></li>
+            <h2>NPTEL Certifications</h2><br>
+            <ul>
+            <li><b>In NPTEL I have completed the course of Problem Solving Through Programming in C securing 69% and achieved the certificate : <br><br><a href="https://drive.google.com/file/d/1Eucl4abgrf-2KFjmU-6PqxZo-4YHJagy/view?usp=sharing" target="_blank">Problem Solving Through Programming in C</a></b></li>
+            </ul>
+
+            <br>
+            <h2>Certification in Great Learning</h2><br>
+            <ul>
+            <li><b>At Great Learning website I have completed my course of Python Fundamentals for Beginners and secured Course Completion Certificate : <br><br><a href="https://drive.google.com/file/d/1yIH3ISpH-y9keIfHQRb1wF3KbQC62LXL/view?usp=sharing" target="_blank">Completion certificate of Python Fundamentals for Beginners</a></b></li>
+            </ul>
+                        <br>
+            <h2>Digilab Certifications</h2><br>
+            <p><b>In digilab I have completed the following courses and achieved the Course Completion Certificates</b></p><br>
+            <ul>
+                <li><b>Python Basics Course : <a href="https://drive.google.com/file/d/1V0rKomesXrmXVEiYAz4QrYSc4jxOzPed/view?usp=sharing" target="_blank">Python Basic</a></b></li>
+            <br>
+            
+            <li><b>C++ Basics Course : <a href="https://drive.google.com/file/d/1-Ia7yXZHDGgOxZr0iSou1nmtrQOD9mF_/view?usp=sharing" target="_blank">C++ Basic</a></b></li>
+            <br>
+           
+            <li><b>Java Basics Course : <a href="https://drive.google.com/file/d/136etmmL33Kj8TEPERgSAWp2b_kGTJdas/view?usp=sharing" target="_blank">Java Basic</a></b></li>
+            <br>
+            
+            <li><b>HTML Basics Course : <a href="https://drive.google.com/file/d/1NsE9ezdGkKApbLj_wiU0cSZPfhZbAuvT/view?usp=sharing" target="_blank">HTML Basic</a></b></li>
+            </ul>
+            <br>
+            <br>
+            <h2>Workshop</h2><br>
+            <ul>
+            <li><b>I have attended one day workshop on "Android" held on 13-Febraury-2024 at CodeBind technologies-Coimbatore : <br><br><a href="https://drive.google.com/file/d/1qwe5gl5o5Zqi-xCD82hU1qUCpIc8nZWb/view?usp=sharing" target="_blank">Workshop on "Android"</a>            <a href="https://drive.google.com/file/d/1qwe5gl5o5Zqi-xCD82hU1qUCpIc8nZWb/view?usp=sharing" target="_blank">Workshop on "Android"</a></b></li>
+            </ul>            
+</div>
+        
+        <div id="Information" class="section">
+            <h2>Contact Information</h2><br>
+            <p><b><u>Name</u> : Divyasree.P</b></p>
+            <p><b><u>Place</u> : Nadupalayam Pirivu,Coimbatore-641016</b></p>
+            <p><b><u>Contact Number</u>📞 : 7010669571</b></p>
+            <br>
+            <h2>Social Media Links</h2><br>
+            <p><b><u>Email✉</u> : divyasreep12@gmail.com</b></p>
+            <p><b><u>LinkedIn Profile</u>🌐 :<a href="https://www.linkedin.com/in/divya-sree-p-9603b9265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></b></p>
+            <p><b><u>GitHub</u>👨🏻‍💻 : <a href="https://github.com/Divyasree2304/formvalidation.git">GitHub</a></b></p>
+            <br>
+            <h2>Personal Information</h2><br>
+            <p><b><u>Laguages Spoken : </u></p>
+            <ul>
+                <li>English (Fluent)</li>
+                <br>
+                <li>Tamil (Native)</li>
+            </ul>
+            <p><u>Hobbies and Interests: </u></p>
+            <ul>
+                <li>Listening to Musics</li>
+                <br>
+                <li>Writing</li>
+           <br>
+                <li>Web Designing</li><br>
+                <li>    Web Development</li><br>
+                    <li>Problem Solving</li><br>
+            </b></ul>
+           
+            <p><b><u>Resume : <a href="https://drive.google.com/file/d/1184O6P9uxtMX3e6UpgaOMMWCGm2uNZNQ/view?usp=sharing">Resume link</a></u></b></p>
+
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
